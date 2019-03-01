@@ -1,0 +1,18 @@
+filters: {
+        prettify : function(value) {
+             let data = value.split(':');
+             let time= "";
+             data.forEach(element => {
+                 if (element< 10){
+                     element = "0"+ element;
+                     console.log(element);
+                    }
+                time += element +":";
+             });
+             console.log(time)
+             return time
+        }
+    }
+
+
+    

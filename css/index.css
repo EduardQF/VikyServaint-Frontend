@@ -1,0 +1,151 @@
+#navb{
+    background-color: #c1eaa9;
+    border-color:  #47be3c;
+    border-style: solid;
+    border-width: 0px 2px 3px 2px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+footer{
+    border-style: solid;
+    border-color: #47be3c;
+    border-width: 3px 2px 0px 2px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #c1eaa9;
+    text-align: center;
+    
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*
+0. #47be3c, #c1eaa9
+1. #a98307, #fedb67
+2. #df0000, #d31f3d
+3. #ffc0df, #9d1c68
+*/
+
+.tik{
+    float: left;
+    margin: 2%;
+    padding: 10px 10px 0px 10px;
+    height:20%;
+    width: 303px;
+}
+
+.tik button{
+    width: 13%;
+    margin: 0%;
+    font-size: 150%;
+    padding: 0%;
+}
+/* ticket green*/
+
+.tickg{
+    border:solid;
+    border-color: #47be3c;
+    background-color: #c1eaa9;
+    border-radius: 3%;
+}
+
+.tickg > div{
+    border-top: solid #47be3c;
+    width: 100%;
+}
+
+.tickg button{
+    background-color: #c1eaa9;
+    border-color: transparent;
+    border-left-color: #47be3c;
+}
+/* ticket yelow*/
+
+.tickw{
+    border:solid;
+    border-color: #a98307;
+    background-color: #fedb67;
+    border-radius: 3%;
+}
+
+.tickw > div{
+    border-top: solid #a98307;
+    width: 100%;
+}
+
+.tickw button{
+    background-color: #fedb67;
+    border-color: transparent;
+    border-left-color: #a98307;
+    color: #a98307
+}
+
+/* ticket red*/
+
+.tickb{
+    border:solid;
+    border-color: #cc0000;
+    background-color: #ff4040;
+    border-radius: 3%;
+}
+
+.tickb > div{
+    border-top: solid #cc0000;
+    width: 100%;
+}
+
+.tickb button{
+    background-color: #ff4040;
+    border-color: transparent;
+    border-left-color: #cc0000;
+    color: #cc0000;
+}
+
+/* ticket newTik*/
+
+.tik > p{
+    text-align: center;
+    height: 168px;
+    overflow: auto;
+}
+
+.newtik{
+    border:dashed;
+    border-color: #bcbcbc;
+    background-color: #eee;
+    border-radius: 3%;
+    opacity: 0.5;
+}
+
+.newtik > p{
+    text-align: center;
+    height:100%;
+    width: 100%;
+    font-size: 700%;
+    border: dashed #bcbcbc;
+    border-radius: 200px;
+    overflow: initial; 
+}
+
+
+.newtik > div{
+    border-top: dashed #bcbcbc;
+    width: 100%;
+}
+
+.newtik button{
+    background-color: transparent;
+    border-color: transparent;
+    border-left: dotted #bcbcbc;
+    color: #bcbcbc
+}
+
+.tik .time{
+    float: left;
+    width: 68%;
+    text-align: center;
+    margin-top: 1%;
+    line-height: 200%;
+}
